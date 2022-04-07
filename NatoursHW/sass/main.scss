@@ -3,7 +3,8 @@ $color-primary-light: #7ed56f;
 $color-primary-dark: #28b485;
 
 $color-gray-dark:#777;
-$color-white:rgb(255, 255, 255);
+$color-white:#fff;
+$color-black:#000;
 
 
 *,
@@ -119,11 +120,11 @@ body {
 
 .btn:hover {
   transform: translateY(-3px);
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+  box-shadow: 0 1rem 2rem rgba($color-black, 0.2); }
 
 .btn:active {
   transform: translateY(-1px);
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
+  box-shadow: 0 0.5rem 1rem rgba($color-black, 0.2); }
 
 .btn-white {
   background-color: $color-white;
